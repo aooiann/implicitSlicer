@@ -33,5 +33,9 @@ The *Implicit Equation Expression* participates as ***exprOperater(Expression, A
 *Different expression*
 
 ### G-code Output
-Based on the previously generated graphics, you can use the ***writeGcodeBody(allLays, origOffset, fr, raiseheight)*** method in *gcodeOut.py* to export the G-code for 3D printing.*origOffset* will be half the width of your printer, *fr* represents how far the first layer will be raised, and *raiseheight* 
+Based on the previously generated graphics, you can use the ***writeGcodeBody(allLays, origOffset, fr, raiseheight)*** method in *gcodeOut.py* to export the G-code for 3D printing.*origOffset* will be half the width of your printer, *fr* represents how far the first layer will be raised, and *raiseheight* represents how far the printhead will be raised at the end of one path to ensure not hit the printed material when it starts printing the next path.
+![gcodeOutput](img/gcodeOutput.png)
+*Preview the print path*
+![3DprintingModel](img/3DprintingModel.jpg)
+*One of my printouts*
 
