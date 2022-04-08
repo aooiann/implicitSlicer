@@ -39,3 +39,5 @@ Based on the previously generated graphics, you can use the ***writeGcodeBody(al
 ![3DprintingModel](img/3DprintingModel.jpg)
 *One of my printouts*
 
+### Now, start generating your personalized graphics and print them out!  
+![personalizedPattern](img/personalizedPattern.jpg)
