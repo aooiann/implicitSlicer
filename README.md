@@ -11,6 +11,9 @@ gcodeOut.writeGcodeBody(allLay,100.0,0.1,0.2)
 The variables in parentheses represent:
 *(Canvas SizeX, Canvas SizeY, Grid Size, Implicit Equation Expression, Value of Expression, Mode, Layers Count, Layer Height).*
 
+### Display Platform
+I use *Rhinoceros* platform to display the graphics generated.And you can disable the rhinoceros feature by  *line 50* in the file *main.py*
+
 ### Drawing Mode
 You can change the way the expression be drawn by changing the value of mode(0 or 1). ***"0"*** means draw with zigzag lines, ***"1"*** means draw with smooth lines.Look at the following two examples:
 ![minisrf_mode0](img/minisrf_mode0.png)
@@ -28,4 +31,5 @@ The *Implicit Equation Expression* participates as ***exprOperater(Expression, A
 *Same expression different scaling & rotation value*
 ![schwarzP](img/schwarzP.png)
 *Different expression*
+
 ### Gcode Output
