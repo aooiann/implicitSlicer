@@ -12,7 +12,7 @@ The variables in parentheses represent:
 *(Canvas SizeX, Canvas SizeY, Grid Size, Implicit Equation Expression, Value of Expression, Mode, Layers Count, Layer Height).*
 
 ### Display Platform
-I use *Rhinoceros* platform to display the graphics generated.And you can disable the rhinoceros feature by  *line 50* in the file *main.py*
+I use *Rhinoceros* platform to display the graphics generated.And you can disable the rhinoceros functions by annotating *line 50* in the file *main.py*.
 
 ### Drawing Mode
 You can change the way the expression be drawn by changing the value of mode(0 or 1). ***"0"*** means draw with zigzag lines, ***"1"*** means draw with smooth lines.Look at the following two examples:
@@ -32,4 +32,6 @@ The *Implicit Equation Expression* participates as ***exprOperater(Expression, A
 ![schwarzP](img/schwarzP.png)
 *Different expression*
 
-### Gcode Output
+### G-code Output
+Based on the previously generated graphics, you can use the ***writeGcodeBody(allLays, origOffset, fr, raiseheight)*** method in *gcodeOut.py* to export the G-code for 3D printing.*origOffset* will be half the width of your printer, *fr* represents how far the first layer will be raised, and *raiseheight* 
+
