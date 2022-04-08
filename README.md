@@ -15,6 +15,11 @@ The variables in parentheses represent:
 The *Implicit Equation Expression* participates as ***exprOperater(Expression, AffineFun, (Scale X, Scale Y, Scale Z), (Rotate Z, Rotate Y, Rotate X))***,you can create personalized patterns by changing the expression and the rotation and scaling values.
 
 ### Drawing Mode
-You can change the way the expression be drawn by changing the value of mode. ***"0"*** means draw with zigzag lines, ***"1"*** means draw with smooth lines.
+You can change the way the expression be drawn by changing the value of mode. ***"0"*** means draw with zigzag lines, ***"1"*** means draw with smooth lines.Look at the following two examples:
+*Mode"0"*
+![minisrf_mode0](img/minisrf_mode0.jpg)
+*Mode"1"*
+![minisrf_mode1](img/minisrf_mode1.jpg)
+
 
 ### Gcode Output
