@@ -1,6 +1,14 @@
 # implicitSlicer
 ![titleImg](img/titleImg.jpg)
 implicit surface slicing for 3D printing
+
+## Author
+@aooiann/Jiayan Shao, https://github.com/aooiann
+@Inst. AAA, https://github.com/Inst-AAA
+
+## Version
+V1.0 (2022-04-08)
+
 ## Usage
 You can start quickly in *line 55* in the file *main.py*
 ```
