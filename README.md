@@ -4,7 +4,7 @@ implicit surface slicing for 3D printing
 
 ## Author
 @aooiann/Jiayan Shao, https://github.com/aooiann
-@Hao Hua,
+@Hao Hua, https://github.com/whitegreen
 @Inst. AAA, https://github.com/Inst-AAA
 
 ## Version
