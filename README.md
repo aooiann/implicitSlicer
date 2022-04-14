@@ -31,7 +31,7 @@ Switch between the two modes by mode value (0 or 1). ***"0"***: drawing zigzag l
 *Mode"1"*
 
 ### Expression & Affine Transformation
-The *Implicit Equation Expression* is written as ***exprOperater(Expression, AffineFun, (Scale X, Scale Y, Scale Z), (Rotate Z, Rotate Y, Rotate X))***, you can create personalized patterns by defining the expression and the rotating/scaling transformation. Two examples:
+The *Implicit Equation Expression* is written as ***exprOperater(Expression, AffineFun, (Scale X, Scale Y, Scale Z), (Rotate Z, Rotate Y, Rotate X))***, you can create personalized patterns by defining the expression and the rotating/scaling transformation. Four examples:
 ![minisrf_scale](img/minisrf_scale.png)
 *Same expression different scaling value*
 ![minisrf_rotate](img/minisrf_rotate.png)
